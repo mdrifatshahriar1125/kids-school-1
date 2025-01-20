@@ -50,13 +50,57 @@ nav a{
     height: 40px;
     border-radius: 5px;
     border: none;
-    
-
+    color: white;
+    font-weight: 400;
 background: rgb(254, 163, 1);
 }
+
 .menu{
     display: none;
 }
+.max-width{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.part2{
+ display: flex;
+ 
+
+}
+
+.part2-description{
+  /* width: 60% ; */
+  display: flex;
+  align-items: center;
+
+  
+}
+.inside-description h1{
+    /* width: 90%; */
+    font-size: 2.5rem;
+}
+.inside-description p{
+    width: 90%;
+    font-size: 1.2rem;
+}
+.word1{
+  color: #FEA301;  
+}
+.word2{
+   color: #01ACFD;
+}
+.two{
+    background-color: black;
+}
+
+.part2 img{
+   width: 100%;
+}
+.part3{
+    background-image: url(assets/bg.png);
+    
+}
+
 
 @media screen and (max-width:576px) {
     .school .name,.nav,.contact{
@@ -70,6 +114,11 @@ background: rgb(254, 163, 1);
         border: 1px solid #FEA301;
     
     }
+    .part2{
+        flex-direction: column-reverse ;
+        text-align: center;
+        padding: 15px;
+    } 
 
     
 }
