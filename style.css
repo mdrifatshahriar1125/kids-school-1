@@ -12,8 +12,11 @@ body{
     font-style: normal;
     font-weight: 400;
     font-optical-sizing: auto;
+    margin: 0;
 
 }
+
+
 ul{
     gap:20px;
 }
@@ -62,6 +65,10 @@ background: rgb(254, 163, 1);
     .menu{
         display: inline-block;
         width: 25px;
+    }
+    .h-border-phone{
+        border: 1px solid #FEA301;
+    
     }
 
     
