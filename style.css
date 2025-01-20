@@ -99,8 +99,11 @@ background: rgb(254, 163, 1);
 .part2 img{
    width: 100%;
 }
-.part3{
+.bg-image{
     background-image: url(assets/bg.png);
+}
+.part3{
+    
     text-align: center;
 }
 .card{
@@ -163,11 +166,31 @@ margin: 10px auto 60px;
 }
 .Stories-card{
     display: flex;
+    gap: 15px;
 }
 .four-card{
+    width: 50%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 15px;
+}
+.one-card{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 0 4px 5px gray;
+
+  
+}
+.one-card img{
+    width: 100%;
+}
+.four-card .card-story{
+color: rgb(255, 255, 255);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+
 }
 
 @media screen and (max-width:576px) {
