@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+/* share-content */
+.displayflex{
+    display: flex;
+}
+/* main-content */
+body{
+    width: 100%;
+    font-family: "Quicksand", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-optical-sizing: auto;
+
+}
+ul{
+    gap:20px;
+}
+nav li{
+    list-style: none;
+   
+}
+nav a{
+    text-decoration: none;
+}
+.a1{
+    color: rgb(254, 163, 1);
+}
+.a2{
+    color:rgb(1, 172, 253)
+}
+.a3{
+    color:rgb(5, 212, 223);
+}
+.a4{
+ color:rgb(93, 88, 239);
+}
+.header-inside{
+    max-width: 1160px;
+    margin: 0 auto;
+    justify-content: space-between;
+   align-items: center;
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    
+
+background: rgb(254, 163, 1);
+}
+.menu{
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .school .name,.nav,.contact{
+        display: none;
+    }
+    .menu{
+        display: inline-block;
+        width: 25px;
+    }
+
+    
+}
