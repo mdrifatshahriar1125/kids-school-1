@@ -339,7 +339,19 @@ margin: 80px auto 60px;
     /* justify-content: center; */
 }
 
-
+.add{
+    position:fixed;
+    
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(254, 163, 1); 
+    color: white;
+    font-weight: 700;
+    padding: 10px 0;
+    overflow: hidden;
+    z-index: 1000;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
 /* trying to fix the date portion of grid */
 
 
