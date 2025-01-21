@@ -183,6 +183,8 @@ margin: 10px auto 60px;
     height: 100%;
     display: flex;
     gap: 15px;
+   
+    font-weight:bolder;
 }
 
 .one-card{
@@ -199,6 +201,10 @@ margin: 10px auto 60px;
 }
 .one-card p{
     /* margin-top: -15px; */
+    color: rgb(102, 102, 102);
+}
+.one-card h3{
+    font-weight: bolder;
 }
 .one-card-img img{
     width: 100%;
