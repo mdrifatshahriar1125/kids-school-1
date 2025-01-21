@@ -225,15 +225,15 @@ margin: 10px auto 60px;
    
 }
 .one-card button{
-    /* margin-bottom: 50px; */
-    margin-left: 20px;
    
+    margin-left: 20px;
+    margin-top:-25px;
     height: 37px;
     width: 170px;
     padding: 10px;
     border-radius: 30px;
     position: absolute;
-    margin-top:-303px;
+    
     color: white;
     background-color: rgb(60, 216, 232);
     font-weight: 400;
@@ -254,7 +254,7 @@ margin: 10px auto 60px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 15px;
-    position: relative;
+    /* position: relative; */
 }
 
 .card-story{
@@ -274,7 +274,7 @@ box-shadow: 0 2px 2px gray;
 .four-card button{
  position: absolute;
  margin-left: 20px;
- margin-top: -117px;
+ margin-top: -22px;
  height: 37px;
     width: 170px;
     padding: 10px;
@@ -326,6 +326,8 @@ margin: 80px auto 60px;
 }
 .inside-footer li{
     list-style: none;
+    /* display: grid;
+    grid-gap: 20px; */
 }
 .inside-footer a{
     text-decoration: none;
@@ -390,21 +392,13 @@ margin: 80px auto 60px;
     }
     .four-card button{
         
-        margin-left: 10px;
-        margin-top: -137px;
+        
         height: 37px;
            width: 130px;
            font-size: 0.7rem;
            padding: 2px;
     }
-     .four-three .date43{
-        margin-left: 10px;
-        margin-top: -157px;
-        height: 37px;
-           width: 130px;
-           font-size: 0.7rem;
-           padding: 2px;
-    }
+   
     .inside-footer{
         flex-direction: column;
         gap: 15px;
