@@ -100,8 +100,12 @@ background: rgb(254, 163, 1);
    width: 100%;
 }
 .bg-image{
-    background-image: url(assets/bg.png);
+   
     /* background-size: cover; */
+}
+.background1{
+    width: 100%;
+    background-image: url(assets/bg.png);
 }
 .part3{
     
@@ -165,6 +169,13 @@ font-size:x-large;
 border: none;
 margin: 10px auto 60px;
 }
+.background2{
+    width: 100%;
+    /* background-image: url(assets/bg.png); */
+    background: url(assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+
+}
+
 .Stories-card{
     width: 100%;
     height: 100%;
@@ -177,7 +188,7 @@ margin: 10px auto 60px;
     height: auto;
     background-color: rgb(255, 255, 255);
     border-radius: 13px;
-    box-shadow: 0 4px 5px gray;
+    box-shadow: 0 2px 2px gray;
     /* padding-bottom: 20px; */
      /* margin-bottom: 10px; */
     position: relative;
@@ -239,8 +250,9 @@ margin: 10px auto 60px;
 }
 
 .card-story{
+    background-color: white;
    border-radius: 16px;
-box-shadow: 0 4px 5px gray; 
+box-shadow: 0 2px 2px gray; 
 }
 .foc-description{
     margin-top: 15px;
@@ -286,14 +298,14 @@ margin: 80px auto 60px;
     width: 100%;
     height: auto;
     background-color: #01ACFD;
-    padding: 123px auto 155px ;
+    /* padding: 123px auto 155px ; */
 }
 /* .inside2-footer{
     
 } */
 
 .inside-footer{
-    margin: 70px auto 0;
+    margin: 0 auto;
     padding: 50px 0px;
 
     max-width:1160px;
