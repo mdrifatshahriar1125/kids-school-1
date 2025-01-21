@@ -171,18 +171,12 @@ margin: 10px auto 60px;
     display: flex;
     gap: 15px;
 }
-.four-card{
-    width: 50%;
-    height: auto;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 15px;
-}
+
 .one-card{
     width: 50%;
     height: auto;
     background-color: rgb(255, 255, 255);
-    border-radius: 15px;
+    border-radius: 13px;
     box-shadow: 0 4px 5px gray;
     /* padding-bottom: 20px; */
      /* margin-bottom: 10px; */
@@ -211,13 +205,6 @@ margin: 10px auto 60px;
     margin-bottom: 50px;
    
 }
-/* .four-card .card-story{
-color: rgb(255, 255, 255);
-border-radius: 16px;
-
-background: rgb(255, 255, 255);
-
-} */
 .one-card button{
     /* margin-bottom: 50px; */
     margin-left: 20px;
@@ -227,7 +214,7 @@ background: rgb(255, 255, 255);
     padding: 10px;
     border-radius: 30px;
     position: absolute;
-    margin-top:-280px;
+    margin-top:-303px;
     color: white;
     background-color: rgb(60, 216, 232);
     font-weight: 400;
@@ -236,11 +223,68 @@ background: rgb(255, 255, 255);
 
 
 }
+.part4 h1{
+    font-size: 2.6rem;
+    text-align: center;
+    margin: 40px auto 60px;
+
+}
+.four-card{
+    width: 50%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 15px;
+    position: relative;
+}
+
+.card-story{
+   border-radius: 16px;
+box-shadow: 0 4px 5px gray; 
+}
+.foc-description{
+    margin-top: 15px;
+    /* margin-bottom: 5px; */ 
+    padding: 20px;
+}
+.four-card img{
+    border-radius: 16px 16px 0px 0px;
+}
+.four-card button{
+ position: absolute;
+ margin-left: 20px;
+ margin-top: -117px;
+ height: 37px;
+    width: 170px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+}
+.date44, .date41 , .date43{
+    background-color: rgb(149, 178, 38);
+    color: white;
+}
+.date42{ background-color: rgb(93, 88, 240);
+    color: white;
+}
+.part4 .story-button{
+    text-align: center;
+}
+.part4 .view-all{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 400;
+background: black;
+margin: 80px auto 60px;
+
+}
+
+
 /* trying to fix the date portion of grid */
-/* .four-one{
-    margin-top: -70px;
-    margin-left: 20px;
-} */
+
 
 @media screen and (max-width:576px) {
     .school .name,.nav,.contact{
