@@ -16,6 +16,7 @@ body{
     font-weight: 400;
     font-optical-sizing: auto;
     margin: 0;
+    margin-top: 5px;
 
 }
 
@@ -167,6 +168,7 @@ background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0)
 height: 50px;
 border-radius: 30px;
 background: rgb(254, 163, 1);
+color: white;
 font-size:x-large;
 border: none;
 margin: 10px auto 60px;
@@ -339,6 +341,11 @@ margin: 80px auto 60px;
 .inside-portion-11{
     align-items: center;
     /* justify-content: center; */
+}
+.footer-4list{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
 }
 
 .add{
