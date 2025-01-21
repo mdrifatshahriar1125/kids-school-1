@@ -19,7 +19,9 @@ body{
 
 }
 
-
+.nav-img img{
+    width: 100%;
+}
 ul{
     gap:20px;
 }
