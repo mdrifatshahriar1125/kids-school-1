@@ -377,7 +377,7 @@ margin: 80px auto 60px;
         width: 25px;
     }
     .h-border-phone{
-        border: 1px solid #FEA301;
+        border-bottom:  2px solid #FEA301;
     
     }
     .part2{
