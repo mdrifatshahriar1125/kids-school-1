@@ -391,10 +391,11 @@ margin: 80px auto 60px;
 
     }
     .four-card button{
+        margin-left: 10px;
+ /* margin-top: -22px; */
         
-        
-        height: 37px;
-           width: 130px;
+        height: 35px;
+           width: 125px;
            font-size: 0.7rem;
            padding: 2px;
     }
