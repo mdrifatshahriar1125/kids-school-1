@@ -282,19 +282,22 @@ background: black;
 margin: 80px auto 60px;
 
 }
-.footer{
+.footer-box{
     width: 100%;
     height: auto;
     background-color: #01ACFD;
-    padding: 123px auto 150px;
+    padding: 123px auto 155px ;
 }
 /* .inside2-footer{
     
 } */
 
 .inside-footer{
+    margin: 70px auto 0;
+    padding: 50px 0px;
+
     max-width:1160px;
-    margin: 10px auto 5px ;
+    
     display: flex;
     justify-content: space-between;
     flex: 1;
