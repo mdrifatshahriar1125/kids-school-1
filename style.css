@@ -322,7 +322,8 @@ margin: 80px auto 60px;
     max-width:1160px;
     
     display: flex;
-    justify-content: space-between;
+    gap: 60px;
+    justify-content: space-around;
     flex: 1;
     color: white;
     /* margin: 50px auto; */
@@ -370,6 +371,9 @@ button:hover{
     background-color: #01ACFD;
 
 }
+.footer-portion-1{width: 33%;}
+.footer-portion-2{width: 33%;}
+.footer-portion-3{width: 33%;}
 
 @media screen and (max-width:576px) {
     body{
@@ -423,5 +427,8 @@ button:hover{
         gap: 15px;
         padding: 15px;
     }
+    .footer-portion-1{width: 100%;}
+.footer-portion-2{width: 100%;}
+.footer-portion-3{width: 100%;}
     
 }
