@@ -363,7 +363,13 @@ margin: 80px auto 60px;
     /* box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); */
 }
 /* trying to fix the date portion of grid */
+button:hover{
+    background-color: #01ACFD;
+}
+.story-button button:hover{
+    background-color: #01ACFD;
 
+}
 
 @media screen and (max-width:576px) {
     body{
